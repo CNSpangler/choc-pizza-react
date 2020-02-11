@@ -59,7 +59,7 @@ h3 {
 
 }
 
-#instructions{
+.instructions{
   text-indent: 30px;
   width: 80%;
   color: gray;
@@ -100,7 +100,7 @@ section{
 
 #ingredients{
   display: flex;
-  background-image: url("./assets/lab-assets/list-bg.png");
+  background-image: url("list-bg.png");
   background-repeat: no-repeat;
   justify-content: space-around; 
 }
