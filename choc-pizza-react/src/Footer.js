@@ -4,11 +4,11 @@ export default class Footer extends Component {
     render() {
         return (
             <div>
-                <img id="headShot" src="van-pic.png" alt="Ready-to-eat chocolate pizza" />
+                <img id={this.props.author.id} src={this.props.author.source} alt={this.props.author.alt} />
                 <div id="author"> 
                 <h1>Vanessa Stevenson</h1>
                 <p id="bio">       
-                    Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.
+                    {this.props.author.bio}
                 </p>
                 </div>
                 <div id="button">

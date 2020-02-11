@@ -5,16 +5,6 @@ import Footer from './Footer.js';
 
 export default class Body extends Component {
     render() {
-        
-      
-
-        // function Welcome(props) {
-        //     return <p id="posted">
-        //         POSTED ON 15 DEC 2013/DESSERTS<br />
-        //         Hello, {props.name}!<br />
-        //         Today is: {props.date}</p>
-        // }
-
         return (
             <div>
                 <div id="angles"></div>
@@ -25,8 +15,8 @@ export default class Body extends Component {
                         </h1>
                         <p id="posted">
                             POSTED ON 15 DEC 2013/DESSERTS<br />
-                            Hello, {this.props.welcomeObject.name}!<br />
-                            Today is: {this.props.welcomeObject.date}
+                            Hello, {this.props.welcome.name}!<br />
+                            Today is: {this.props.welcome.date}
                         </p> 
                     </div>                  
                     <div id="printDiv">
@@ -42,14 +32,6 @@ export default class Body extends Component {
                 <Instructions />
                 <Ingredients />
                 <div id="angles"></div>
-                <Footer />
-                <section id="post-footer">
-                    <img id="small" src="small-logo.png" alt="Small logo" />
-                    <p id="rights">
-                        Delicious &copy; 2013 &bull; All rights reserved.<br />
-                        Proudly published with Ghost.
-                    </p>    
-                </section>
             </div>
         );
     }
