@@ -1,0 +1,175 @@
+html{
+  max-width: 80%;
+  display: flex;
+  justify-content: center;
+}
+body{
+  max-width: 80%;
+}
+header {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 35px;
+}
+
+h3 {
+  margin-bottom: 7px;
+  font-size: 24px;
+  font-family: 'Lobster', cursive;
+}
+
+.nav-div {
+  display: flex;
+  flex-direction: row;
+  float: right;
+}
+
+.icon {
+  margin: 1px;
+}
+
+#rss {
+  margin-left: 6px;
+}
+
+#logo {
+  float: left;
+  margin-right: 15px;
+}
+
+#branding {
+  display: flex;
+  align-items: center;
+}
+
+#branding-text {
+  flex-direction: column;
+  justify-content: center;
+}
+
+#best {
+  margin-top: -5px;
+  padding-bottom: 5px;
+
+}
+
+.instructions{
+  text-indent: 30px;
+  width: 80%;
+  color: gray;
+  text-align: center;
+}
+
+#posted{
+  font-size: 12px;
+  color: gray;
+  margin-top: -25px;
+  /* margin-bottom: 25px; */
+}
+
+section{
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+#print{
+  font-size: 13px;
+  color: gray;
+  margin-top: 50px;
+
+}
+/* #printDiv{
+  margin-bottom: -50px;
+} */
+
+#chocolatePizza{
+  justify-content: center;
+}
+
+#pizzaContainer{
+  display: flex;
+  width: 100%;
+}
+
+#ingredients{
+  display: flex;
+  background-image: url("list-bg.png");
+  background-repeat: no-repeat;
+  justify-content: space-around; 
+}
+
+input{
+  float: left;
+}
+
+.strikethrough:checked + .strikeThis {
+  text-decoration: line-through;
+}
+
+#angles{
+  height: 15px;
+  width: 100%;
+  background: repeating-linear-gradient(45deg, gray, white .5%, gray .1%);
+}
+
+#strikeThis{
+    justify-content: left;
+}
+
+ul{
+  max-width: 50%;
+  color: rgb(151, 104, 15);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#recipeButton{
+  background-color: rgb(165, 79, 69);
+  height: 40px;
+  width: 150px;
+  font-size: 15px;
+  color: blanchedalmond;
+  float: right;
+}
+
+#headShot{
+float: left;
+margin-right: 20px;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+}
+
+#author{
+  display: flex;
+  flex-direction: column;
+  max-width: 650px;
+}
+
+#bio{
+  margin-top: -5px;
+  color: gray;
+}
+
+#rights {
+  text-align: center;
+  color: gray;
+}
+
+#post-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#small {
+  max-width: 25px;
+}
